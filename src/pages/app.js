@@ -62,7 +62,7 @@ export default function AdiceComponent() {
           }
         }}
       >
-        <Image className={styles.diceIcon} src={picDice} />
+        <Image className={styles.diceIcon} src={picDice} alt="" />
       </button>
     </div>
   );
@@ -99,10 +99,12 @@ const Devider = (props) => {
           <Image
             className={styles.mobileDivider}
             src={picMobileDivider}
+            alt=""
           ></Image>
           <Image
             className={styles.desktopDivider}
             src={picDesktopDivider}
+            alt=""
           ></Image>
         </>
       ) : (
